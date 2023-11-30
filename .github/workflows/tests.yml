@@ -27,4 +27,4 @@ jobs:
       run: |
         coverage run -m pytest
         coverage report
-        coverage report --fail-under=80  # Umbral mínimo del 80%
+        coverage report --fail-under=80  
