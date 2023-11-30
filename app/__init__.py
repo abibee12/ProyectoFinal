@@ -33,7 +33,7 @@ migrate.init_app(app, db)
 # Agregar configuración de prueba
 class TestingConfig(Config):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:martinez@localhost:5432/AppPythonTest"
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:martinez@localhost:5432/AppPython"
 
 # Agregar la configuración de prueba al diccionario
 config_dict["testing"] = TestingConfig
